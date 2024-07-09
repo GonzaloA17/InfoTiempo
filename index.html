@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <title>Infotiempo</title>    
+</head>
+
+<body>
+    <main>
+        <div class="titulo">
+            <h1>Infotiempo</h1>
+            <img src="./img/mdp.jpg" id="fotomdp" alt="FondoMdp">
+            <a href="https://www.instagram.com/infotiempo/" target="_blank" rel="noopener noreferrer"><p> <strong> Nuestro instagram </strong></p></li><img src="./img/instagram.png" id="logoIns" alt="instagram"></a>
+            <div id="tiempoParaHoy">
+                <a href="#tiempo"> <em>Tiempo para hoy</em></a>
+            </div> 
+        </div>
+        
+        <div>
+            <ul id="lista-no-ordenada">            
+                <li>Portal meteorológico ☀️☁️⛈🌤🌦🌪</li>
+                <li>Pronóstico del tiempo y alertas ⚠️</li>
+                <li><a href="https://www.smn.gob.ar/" target="_blank" rel="noopener noreferrer">Información meteorológica para todo el país</a></li>
+            </ul>
+        </div>
+
+    <div id="pronosticoHoy">        
+
+        <h4 id="tiempo">MIERCOLES CON ALERTA POR VIENTOS EN MAR DEL PLATA</h4>
+
+        <p>Transitamos la recta final de este período húmedo, templado e inestable en la región que responde a un frente estacionario en la previa al desarrollo de lo que será una ciclogénesis entre este miércoles. Este proceso de ciclogénesis va culminar en la formación de un profundo centro de bajas presiones a nivel superficial al este de la Provincia de Buenos Aires durante las primeras horas del miércoles, alejándose rápidamente hacia el Océano Atlántico y permitiendo por detrás el ingreso de una masa de aire seco y estable, a través de fuertes vientos que son conocidos en la región como el Pampero.</p>  
+
+        <p>A partir del final de la tarde empezará a notarse un cambio radical de condiciones, con marcado descenso de humedad y nubosidad, y vientos fuertes que irán mermando para la noche y permitirán un moderado descenso térmico para el amanecer de jueves.
+        Este descenso moderado de temperaturas será seguido por un leve repunte de marcas rápidamente para el viernes y el sábado, en respuesta a la rápida rotación de vientos al noreste y luego este.
+        </p>    
+            
+        <p>Este tipo de situación es la que hemos tenido en varias ocasiones hasta el momento: descensos térmicos importantes pero que luego no se sostienen en el tiempo. Pero eso podría empezar a cambiar pronto, porque nuevamente para el domingo se proyecta otro ingreso de frente frío, inactivo y sin precipitaciones en Buenos Aires, que abrirá las puertas a una circulación marcada de viento sur que será persistente a lo largo de toda la próxima semana.</p>    
+            
+        <p>Para hoy, Mar del Plata tendrá tiempo fresco, húmedo e inestable. Cielo mayormente nublado. Probables chaparrones. Viento moderado a regular del sector sudoeste con ráfagas. La temperatura mínima se estima en 11° y la máxima en 16°</p>    
+
+        <img src="https://www.kayak.com.ar/rimg/dimg/42/2f/addb7f9b-city-4012-16916c05055.jpg?width=1366&height=768&xhint=1627&yhint=1054&crop=true" id="imagenMdp"
+            alt="Imagen MDP">
+            <p>Foto Subida por: <a href="https://www.instagram.com/arielrojo666/" target="_blank" rel="noopener noreferrer" >@arielrojo666<img src="./img/instagram.png" id="logoIns"  alt="instagram"></a></p>
+
+    </div>
+
+    <div>
+        <h2>Queres Publicitar en esta Pagina?</h2>
+        <form action="/enviar-respuesta">      
+                <!--Botones de radio --> 
+                <!--Label para que click en texto y se selecciona -->
+                <!--Name sirver para dar nombre al un grupo de botones de radio y poder hacer asi una sola seleccion entre varios items de botones de radio --> 
+                <!--VAlue o Valor, es para indicarle al servidor que opcion fue seleccionada sino no no sabria cual fue seleccionada en el grupo (name), name es el nombre del grupo, value va a llevar el mismo nombre del id --> 
+                <label for="muy-conforme"><input id="muy-conforme" type="radio" value="si" name="conformenoconforme">Si</label>
+
+                <br>
+                <label for="puede-mejorar"><input id="puede-mejorar" type="radio" value="necesito" name="conformenoconforme">Necesito mas Informacion</label><br>
+
+                <input type="text" placeholder="Solos textos" required><br>
+                <button>Enviar</button>
+
+                <br>
+        </form>
+    </div>
+    </main>
+    <footer>
+        <p> <small> Contacto @sebapagliarino 223 6 012234 </small></p>
+        <a href="https://www.instagram.com/infotiempo/" target="_blank" rel="noopener noreferrer"><img src="./img/instagram.png" alt="instagram">instagram</a>
+        <p><small>Derechos @GonzaloArielOrdoñez 2024 </small></p>
+    </footer>
+</body>
+
+</html>

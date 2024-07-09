@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+#lista-no-ordenada{
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.letraPink{
+    color:darkviolet;
+}
+
+.letraBlue{
+    color:darkblue;
+}
+
+h1{
+    font-size: 64px;
+    color: crimson;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+p,
+ol,
+ul {
+    font-size: 20px !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+}
+
+
+.titulo {
+    text-align: center;
+    padding: 20px;
+}
+
+#fotomdp{
+    height: 254px;
+    width: 1292px;
+}
+
+#pronosticoHoy{
+    padding: auto 5px 5px 5px;
+}
+
+
+
+#logoIns{
+    width: 20px;
+    height: 20px;
+}
+
+#imagenMdp{
+    height: 628px;
+    width: 1200px;
+    padding: 25px auto auto auto;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+#tiempoParaHoy{
+    text-align: center;
+    text-size-adjust: 30px;
+}
+
+.borde-redondeado{
+    border-radius: 150px;;
+}
+
+input[type="radio"]{
+    margin: 5px;
+}
